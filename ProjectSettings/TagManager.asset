@@ -3,12 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - windArea
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -38,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: trigger
+    uniqueID: 3684646359
+    locked: 0
   - name: Background
     uniqueID: 69043343
     locked: 0
