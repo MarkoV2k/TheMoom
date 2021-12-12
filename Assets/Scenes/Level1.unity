@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 592597496}
   - component: {fileID: 592597498}
   m_Layer: 0
-  m_Name: Camera1
+  m_Name: Camera4
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,7 +434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592597495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 30, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 501130518}
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53619729c9cb2364dba42950bfe12613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camOff: {fileID: 592597498}
+  camOff: {fileID: 1674366573}
   camOn: {fileID: 802839963}
 --- !u!212 &867590943
 SpriteRenderer:
@@ -994,7 +994,7 @@ AreaEffector2D:
     m_Bits: 8
   m_UseGlobalAngle: 0
   m_ForceAngle: 0
-  m_ForceMagnitude: 50
+  m_ForceMagnitude: 400
   m_ForceVariation: 0
   m_ForceTarget: 0
   m_Drag: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camOff: {fileID: 703861744}
-  camOn: {fileID: 1674366573}
+  camOn: {fileID: 592597498}
 --- !u!212 &1666574915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 1674366571}
   - component: {fileID: 1674366573}
   m_Layer: 0
-  m_Name: Camera4
+  m_Name: Camera1
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1494,7 +1494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674366570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 30, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 501130518}
@@ -1572,7 +1572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910533197}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -4.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1547975433}
@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camOff: {fileID: 802839963}
-  camOn: {fileID: 592597498}
+  camOn: {fileID: 1674366573}
 --- !u!61 &2119490624
 BoxCollider2D:
   m_ObjectHideFlags: 0

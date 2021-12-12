@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    public GameObject Sphere;
+    private void OnTriggerEnter2D(Collider2D coll)
     {
-        FindObjectOfType<PointsManager>().DodajPunkt();
-        Destroy(gameObject);
+        if (coll.gameObject.tag == "player")
+        {
+            FindObjectOfType<PointsManager>().DodajPunkt();
+            Destroy(gameObject);
+        }
+        else
+        {
+            
+        }
+        
     }
 }
