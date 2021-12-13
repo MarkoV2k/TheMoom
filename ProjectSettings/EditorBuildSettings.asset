@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: d093e5b7fc7a075429d18cdc60ac9873
+    path: Assets/Scenes/MainMenu.unity
+    guid: 215ac13ea6552a04984bd5dd40b12456
   - enabled: 1
-    path: Assets/Scenes/Menu1.unity
-    guid: 89001d29a80c15443ae8f69ea2d2dd77
+    path: Assets/Scenes/WaitingScreen.unity
+    guid: 8b4ba7801311eed47911e7cff3c6822d
+  - enabled: 1
+    path: Assets/Scenes/LEVELwithGraphics.unity
+    guid: bd98e1e5db2addb4ebd352e7abfd1253
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 22b2fd4de58b6024d90ecd62ddc86015
   m_configObjects: {}

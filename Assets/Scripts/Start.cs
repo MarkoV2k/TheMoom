@@ -7,6 +7,10 @@ public class Start : MonoBehaviour
 {
     public void ZmienScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
+    }
+    public void ZamknijGre()
+    {
+        Application.Quit();
     }
 }

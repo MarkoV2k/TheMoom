@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WindCycle : MonoBehaviour
 {
-    public GameObject wind;
+    public GameObject toCycle;
     public int onTime;
     public int offTime;
     public void Start()
@@ -14,9 +14,9 @@ public class WindCycle : MonoBehaviour
     IEnumerator cycle()
     {
         yield return new WaitForSecondsRealtime(onTime);
-        wind.SetActive(false);
+        toCycle.SetActive(false);
         yield return new WaitForSecondsRealtime(offTime);
-        wind.SetActive(true);
+        toCycle.SetActive(true);
         StartCoroutine(cycle());
     }
 }
